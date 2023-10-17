@@ -20,7 +20,7 @@ const Logo = () => {
 
       })
       gsap.from(outlineLogoRef.current, {
-        drawSVG: 0,
+        drawSVG: 1,
         duration: 20,
         onComplete: () => {
           console.log('Animation completed');
